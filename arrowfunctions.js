@@ -10,5 +10,15 @@ console.log(isEven(44));
 var results = [2,4,6,14,10].every(isEven);
 console.log(`I'm from the every callbacck functions ${results}`);
 
+//new arrow function
+
+var res = [2,4,6,8] .every ((e) => (e%2 === 0 ));
+
+var ares = [3,5,9] .every ( (e) => {
+    return e%2 === 1;
+})
+console.log(res);
+console.log(ares);
+
 
 
