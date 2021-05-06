@@ -12,7 +12,7 @@ var iPhone = {
     getRatingCount: function (){
         return `So far we've received, ${this.rating.length} ratings from our users!`;
     }
-}; //optional sei-colon
+}; //optional semi-colon
 
 console.table(iPhone);
 

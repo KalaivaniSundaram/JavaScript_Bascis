@@ -6,6 +6,6 @@ console.log(fruits.slice(1,6));
 
 fruits.splice(2,5, "Kefi");
 console.log(fruits);
-/*  Warning while logging array and spliced array */
+/*  Warning while logging as below,  array and spliced array */
 console.log(fruits.splice(2,5, "Kefi")); 
 // returns the spliced values => [ 'grapes', 'berries', 'banana', 'peach', 'mango' ] NOT splice array 
