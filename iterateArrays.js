@@ -40,3 +40,23 @@ new_array.forEach((value) => {
 new_array.forEach((value, index) => {
     console.log("value : " ,value, "index is : ", index );
 })
+
+
+const numbers = {
+    1 :1,
+    2:3,
+    3:3,
+    3:4,
+    4:5
+};
+var count = 0;
+
+for(num in numbers){
+    while(num == numbers[num]){
+        console.log(num, numbers[num]);
+        count++;
+
+    }
+}
+
+console.log(count);
